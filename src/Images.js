@@ -1,0 +1,20 @@
+import annoyedfan from './memes/annoyedfan.jpg';
+import blinkguy    from './memes/blinkguy.jpg';
+import confusedguy    from './memes/confusedguy.jpg';
+import doge        from './memes/doge.jpg';
+import doginfire     from './memes/doginfire.jpg';
+import elon        from './memes/elon.jpg';
+import heheboy     from './memes/heheboy.jpg';
+import johncena   from './memes/johncena.jpg';
+import michael      from './memes/michael.jpg';
+import pepe        from './memes/pepe.jpg';
+import richpooh      from './memes/richpooh.jpg';
+import scaredkid      from './memes/scaredkid.jpg';
+import simpson       from './memes/simpson.jpg';
+import stonks       from './memes/stonks.jpg';
+import successkid      from './memes/successkid.jpg';
+import takemymoney    from './memes/takemymoney.jpg';
+import think          from './memes/think.jpg';
+import therock     from './memes/therock.jpg';
+
+export default [annoyedfan,blinkguy,confusedguy,doge,doginfire,elon,heheboy,johncena,michael,pepe,richpooh,scaredkid,simpson,stonks,successkid,takemymoney,think,therock];
