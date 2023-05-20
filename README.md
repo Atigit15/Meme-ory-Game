@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Meme-ory Game
 
-## Available Scripts
+Welcome to the React Memes Memory Game, a delightful variation of the classic memory game that combines brain-teasing fun with popular internet memes! This captivating web application, developed using React, brings together the excitement of matching pairs with the humor of internet culture. Prepare to exercise your memory skills while laughing out loud!
 
-In the project directory, you can run:
+The React Memes Memory Game presents a visually engaging and intuitive interface that caters to players of all ages. With its seamless integration of React components, the game provides a responsive and interactive experience across a range of devices. Immerse yourself in the world of memes as you flip cards, uncover hidden images, and put your cognitive abilities to the test.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How To Play
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Start by flipping two cards to reveal their hidden images.
+- If the images match, the cards remain face up, and you earn points.
+- If the images do not match, the cards will flip back over, and you can try again.
+- The objective is to match all the pairs with the fewest number of moves and in the shortest time possible.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Timer and Move Counter: Challenge yourself to complete the game swiftly and efficiently by keeping track of the time taken and the number of moves made.
+- Responsive Design: Enjoy the game seamlessly on different devices, including desktops, laptops, tablets, and mobile phones, ensuring an optimized experience for all players.
+- Hilarious Memes: Get ready to burst into laughter as you encounter a wide array of popular memes carefully curated for this game, adding an extra layer of enjoyment to your gaming experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install the project, follow these steps:
 
-### `npm run eject`
+1. Clone the Repository:
+```bash
+git clone https://github.com/Atigit15/Meme-ory_Game.git
+```
+2. Install npm packages:
+```bash
+npm install 
+```
+3. Start the app:
+ ```bash
+npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application should now be running at http://localhost:3000/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- ![Dashboard](https://github.com/Gaurang105/Finanseer/blob/master/images/dash.png?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Predictions](https://github.com/Gaurang105/Finanseer/blob/master/images/ml.png?raw=true) -->
 
-## Learn More
+<!-- ### Code for backend
+The backend code includes RESTful API endpoints for fetching data related to KPIs, products, and transactions. It connects to the MongoDB database using Mongoose and follows best practices for code organization and structure.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Database Design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Database used
+The application uses MongoDB, a popular NoSQL document-based database, for storing data.
 
-### Code Splitting
+### Database schema and Tables used
+The database has three collections: KPI, Product, and Transaction. The schemas for these collections are defined using Mongoose.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The KPI schema stores the total profit, revenue, expenses, and monthly and daily data.
+- The Product schema contains information about the products, including their name, price, and description.
+- The Transaction schema stores transactional data such as date, revenue, and expenses.## Screenshots
 
-### Analyzing the Bundle Size
+![Database Architecture](https://github.com/Gaurang105/Finanseer/blob/master/images/db.architecture.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Kpis](https://github.com/Gaurang105/Finanseer/blob/master/images/db.kpis.png?raw=true)
 
-### Making a Progressive Web App
+![Products](https://github.com/Gaurang105/Finanseer/blob/master/images/db.products.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Transactions](https://github.com/Gaurang105/Finanseer/blob/master/images/db.transactions.png?raw=true)
+## Acknowledgements
 
-### Advanced Configuration
+ - [React](https://react.dev/)
+ - [Material-UI](https://mui.com/core/)
+ - [Vite](https://vitejs.dev/)
+ - [Recharts](https://recharts.org/en-US/)
+ - [Node.js](https://nodejs.org/en)
+ - [Express](https://expressjs.com/)
+ - [Mongoose](https://mongoosejs.com/)
+ - [MongoDB](https://www.mongodb.com/)
+ -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Future Developments
 
-### Deployment
+Planned improvements and expansions for this project include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Integration of login feature which will store the user's achievements and records.
+- Integration of multiplayer playing environement.
+- Theme selection by user.
+- Some styling and layout changes
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [License](https://choosealicense.com/licenses/mit/) file for more information.
