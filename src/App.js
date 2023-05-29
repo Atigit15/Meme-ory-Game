@@ -1,7 +1,7 @@
 import './App.css';
 import Images from './Images';
 import React,{ useState, useEffect } from 'react';
-import {first, shuffle} from 'lodash';
+import {shuffle} from 'lodash';
 import Confetti from 'react-confetti';
 
 function App() {
@@ -64,9 +64,9 @@ function App() {
         })}
       </div>  
       <div className='stats'>
-          {won && (<>Congrats! You won the game in {counter} seconds !<Confetti></Confetti><br></br></>)}
-          Clicks : {clicks} &nbsp;
-          Found Pairs : {foundPairs.length/2} / 18 &nbsp;&nbsp;
+          {won && (<>Congrats! You won the game in {counter}s and {clicks} clicks!<Confetti></Confetti><br></br></>)}
+          {!won && (<>Clicks : {clicks}/18 &nbsp;</>)}
+          {!won && (<>Found Pairs : {foundPairs.length/2}/18 &nbsp;</>)}
           {!won && (<>Timer : {counter}</>)}
       </div>
     </div>
