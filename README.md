@@ -20,6 +20,11 @@ The React Memes Memory Game presents a visually engaging and intuitive interface
 - Responsive Design: Enjoy the game seamlessly on different devices, including desktops, laptops, tablets, and mobile phones, ensuring an optimized experience for all players.
 - Hilarious Memes: Get ready to burst into laughter as you encounter a wide array of popular memes carefully curated for this game, adding an extra layer of enjoyment to your gaming experience.
 
+## Screenshots
+<img src="./screenshots/Screenshot%20(27).png" height=40% width=30% align="left">
+<img src="./screenshots/Screenshot%20(28).png" height=40% width=30% align="left">
+<img src="./screenshots/Screenshot%20(29).png" height=70% width=30% >
+<br>
 
 ## Installation
 
